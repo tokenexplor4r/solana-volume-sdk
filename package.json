@@ -1,0 +1,26 @@
+{
+  "name": "solana-volume-sdk",
+  "version": "0.2.1",
+  "description": "Volume tracking and analysis SDK for Solana DEXs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.0",
+    "bn.js": "^5.2.1",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "@types/bn.js": "^5.1.0",
+    "eslint": "^9.0.0"
+  },
+  "license": "MIT"
+}
